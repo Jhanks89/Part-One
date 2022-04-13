@@ -82,37 +82,37 @@
                 <fieldset id="radio">
                     <legend class="pt-4">Select a color</legend>
                     <div>
-                        <input type="radio" id="red" name="color" value="red" required />
-                        <label for="red">Red</label>
+                        <input type="radio" id="Black" name="color" value="Black" required />
+                        <label for="Black">Black</label>
                     </div>
                     <div>
-                        <input type="radio" id="green" name="color" value="green" required />
-                        <label for="green">Green</label>
+                        <input type="radio" id="Orange" name="color" value="Orange" required />
+                        <label for="Orange">Orange</label>
                     </div>
                     <div>
-                        <input type="radio" id="blue" name="color" value="blue" required />
-                        <label for="blue">Blue</label>
+                        <input type="radio" id="Blue" name="color" value="Blue" required />
+                        <label for="Blue">Blue</label>
                     </div>
                 </fieldset>
             </div>
             <div class="col-sm-3 mt-3 mr-auto text-center">
                 <fieldset id="checkboxes">
-                    <legend>Choose your interests</legend>
+                    <legend>Choose your Favorite activity</legend>
                     <div>
-                        <input type="checkbox" id="coding" name="interests[]" value="coding">
-                        <label for="coding">Coding</label>
+                        <input type="checkbox" id="reading a book" name="interests[]" value="reading a book">
+                        <label for="reading a book">Reading a book</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="music" name="interests[]" value="music">
-                        <label for="music">Music</label>
+                        <input type="checkbox" id="playing video games" name="interests[]" value="playing video games">
+                        <label for="playing video games">Playing video games</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="art" name="interests[]" value="art">
-                        <label for="art">Art</label>
+                        <input type="checkbox" id="hiking" name="interests[]" value="hiking">
+                        <label for="hiking">Hiking</label>
                     </div>
                     <div>
-                        <input type="checkbox" id="sports" name="interests[]" value="sports">
-                        <label for="sports">Sports</label>
+                        <input type="checkbox" id="napping" name="interests[]" value="napping">
+                        <label for="napping">Napping</label>
                     </div>
                     <div>
                         <input type="checkbox" id="cooking" name="interests[]" value="cooking">
@@ -132,16 +132,16 @@
         </div>
         <div class="row">
             <div class="col-sm text-center mx-auto py-0 mt-3">
-                <label for="herb">Select an herb:</label>
-                <select id="herb" name="herb" required oninvalid="this.setCustomValidity('Please select an herb')" oninput="this.setCustomValidity('')">
-                    <option value="">--Select an herb--</option>
-                    <option value="lemon_verbena">Lemon Verbena</option>
-                    <option value="tulsi">Tulsi</option>
-                    <option value="lemon_balm">Lemon Balm</option>
-                    <option value="sage">Sage</option>
-                    <option value="spearmint">Spearmint</option>
-                    <option value="rooibos">Rooibos</option>
-                    <option value="stevia">Stevia Leaf</option>
+                <label for="food">Choose a food:</label>
+                <select id="food" name="food" required oninvalid="this.setCustomValidity('please choose a food')" oninput="this.setCustomValidity('')">
+                    <option value="">--Choose a food--</option>
+                    <option value="pizza">Pizza</option>
+                    <option value="pasta">Pasta</option>
+                    <option value="sushi">Sushi</option>
+                    <option value="burgers">Burgers</option>
+                    <option value="tacos">Tacos</option>
+                    <option value="seafood">Seafood</option>
+                    <option value="salad">Salad</option>
                 </select>
                 <div class="pt-5 pb-2">
                     <button>Submit</button>
